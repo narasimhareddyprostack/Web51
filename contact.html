@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <!--   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+ -->
+    <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+        .spaceThree{
+        margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a href="./index.html" class="navbar-brand">Bootstap Navbar</a>
+        <div class="ml-auto">
+            <ul class="navbar-nav">
+                <li><a class="nav-link" href="./index.html">Home</a></li>
+                <li><a class="nav-link" href="./about.html">About</a></li>
+                <li><a class="nav-link" href="./service.html">Services</a></li>
+                <li><a class="nav-link" href="./employee.html">Employees</a></li>
+                <li><a class="nav-link" href="./product.html">Product</a></li>
+                <li><a class="nav-link" href="./contact.html">Contact</a></li>
+                <li><a class="nav-link" href="./login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        </ol>
+    </nav>
+   <div class="container mt-4">
+    <div class="row">
+        <div class="col-6">
+            <!-- contact form -->
+            <form>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input placeholder="Name" type="text" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input placeholder="Email" type="text" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <input placeholder="Mobile" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="form-group">
+                            <input placeholder="Subject" type="text" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option >Services</option>
+                                <option >App Dev</option>
+                                <option >Mobile Dev</option>
+                                <option >Hybrid Dev</option>
+                                <option >Cloud Dev</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Submit Comment" class="btn btn-warning"/>
+            </form>
+        </div>
+        <div class="col-6">
+            <!--Google Map-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.302410484395!2d77.6991432!3d12.9510048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13b548ff6e07%3A0xed1229239308d49c!2sNagarjuna!5e0!3m2!1sen!2sin!4v1689998885386!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+   </div>
+</body>
+
+</html>
